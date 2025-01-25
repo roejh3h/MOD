@@ -1,0 +1,45 @@
+{
+  "name": "TNT",
+  "description": " اهلا بكم في تنصيب سورس صيد اليوزرات !",
+  "stack": "container",
+  "repository": "https://github.com/DNGsource/test_checker",
+  "keywords": [
+      "python",
+      "chatbot",
+      "telegrambot"
+  ],
+  "website": "https://github.com/DNGsource/test_checker",
+  "env": {
+      "APP_ID": {
+          "description": "ايبي ايدي",
+          "value": "27455984",
+          "required": false
+      },
+      "APP_HASH": {
+          "description": "ايبي هاش",
+          "value": "62d5f68ce2e9189636967120220f5755",
+          "required": false
+      },
+      "TERMUX": {
+          "description": "كود تيرمكس",
+          "value": "",
+          "required": true
+      },
+      "TOKEN": {
+          "description": "توكن البوت",
+          "value": "",
+          "required": true
+      },
+      "BOT_USERNAME": {
+          "description": "يوزر البوت بدون ـ@ـ",
+          "value": "",
+          "required": true
+      }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
